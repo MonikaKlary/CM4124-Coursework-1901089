@@ -7,6 +7,7 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get; private set; }
 
     public AudioSource BackgroundMusic;
+    public AudioSource PickupSFX;
 
     private void Awake()
     {
@@ -24,10 +25,18 @@ public class AudioManager : MonoBehaviour
     public void SetAudioVolumes(float musicVolume)
     {
         BackgroundMusic.volume = musicVolume;
+
+        //TODO add a separate SFX volume
+        PickupSFX.volume = musicVolume;
     }
 
     public void PlayMusic()
     {
         BackgroundMusic.Play();
+    }
+
+    public void PlayPickup()
+    {
+        PickupSFX.Play();
     }
 }

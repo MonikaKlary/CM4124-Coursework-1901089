@@ -2277,6 +2277,7 @@ GameObject:
   - component: {fileID: 248288773}
   - component: {fileID: 248288772}
   - component: {fileID: 248288771}
+  - component: {fileID: 248288774}
   m_Layer: 0
   m_Name: Green Rune Socket
   m_TagString: Untagged
@@ -2332,6 +2333,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 248288774}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2401,6 +2414,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &248288774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248288770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &256589496
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3162,6 +3187,7 @@ GameObject:
   - component: {fileID: 320287471}
   - component: {fileID: 320287470}
   - component: {fileID: 320287469}
+  - component: {fileID: 320287475}
   m_Layer: 0
   m_Name: 'Green '
   m_TagString: Untagged
@@ -3223,6 +3249,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 320287475}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3441,6 +3479,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &320287475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 320287468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &323990634 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3240652757347418161, guid: 4e50b9f00a96eb744a04921c3be28bbd,
@@ -3531,6 +3581,7 @@ GameObject:
   - component: {fileID: 333025235}
   - component: {fileID: 333025234}
   - component: {fileID: 333025233}
+  - component: {fileID: 333025236}
   m_Layer: 0
   m_Name: Yellow Rune Socket
   m_TagString: Untagged
@@ -3586,6 +3637,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 333025236}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3655,6 +3718,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &333025236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 333025232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &334585234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5254175624772607685, guid: 6e5642efdd933964d9719bb799658cb4,
@@ -4185,6 +4260,7 @@ GameObject:
   - component: {fileID: 389001265}
   - component: {fileID: 389001264}
   - component: {fileID: 389001263}
+  - component: {fileID: 389001266}
   m_Layer: 0
   m_Name: Red Rune Socket
   m_TagString: Untagged
@@ -4240,6 +4316,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 389001266}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4309,6 +4397,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &389001266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389001262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &403510973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4870,6 +4970,7 @@ GameObject:
   - component: {fileID: 470339229}
   - component: {fileID: 470339228}
   - component: {fileID: 470339227}
+  - component: {fileID: 470339233}
   m_Layer: 0
   m_Name: Yellow
   m_TagString: Untagged
@@ -4931,6 +5032,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 470339233}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5149,6 +5262,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &470339233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 470339226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &472192830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9253,6 +9378,7 @@ GameObject:
   - component: {fileID: 841386168}
   - component: {fileID: 841386173}
   - component: {fileID: 841386172}
+  - component: {fileID: 841386174}
   m_Layer: 0
   m_Name: Purple
   m_TagString: Untagged
@@ -9408,6 +9534,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 841386174}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_SelectExited:
     m_PersistentCalls:
       m_Calls:
@@ -9532,6 +9670,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &841386174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841386167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &843218732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5254175624772607685, guid: 6e5642efdd933964d9719bb799658cb4,
@@ -10424,6 +10574,7 @@ GameObject:
   - component: {fileID: 942505011}
   - component: {fileID: 942505010}
   - component: {fileID: 942505009}
+  - component: {fileID: 942505012}
   m_Layer: 0
   m_Name: Purple Rune Socket
   m_TagString: Untagged
@@ -10479,6 +10630,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 942505012}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -10548,6 +10711,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &942505012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942505008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &944858357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20671,6 +20846,7 @@ GameObject:
   - component: {fileID: 1797968048}
   - component: {fileID: 1797968047}
   - component: {fileID: 1797968046}
+  - component: {fileID: 1797968052}
   m_Layer: 0
   m_Name: Red
   m_TagString: Untagged
@@ -20732,6 +20908,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UnityEngine.Collider, UnityEngine
         m_MethodName: set_enabled
         m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1797968052}
+        m_TargetAssemblyTypeName: Pickup, Assembly-CSharp
+        m_MethodName: PlayPickupSFX
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -20950,6 +21138,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1797968052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1797968045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 885c8fc99340e26438bb55dff33062d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1800181130 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6966706505589406848, guid: 49a5f24a081cbbc44bd23d76c2869723,
@@ -21814,6 +22014,79 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1741509356}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1870770320
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -8.010352
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3870572
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.445161
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642000, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5622961927182642006, guid: 94e29fe3b9f1ab844b3f6e80b191e234,
+        type: 3}
+      propertyPath: m_Name
+      value: DontDestroyOnLoadParent
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 94e29fe3b9f1ab844b3f6e80b191e234, type: 3}
 --- !u!4 &1880188723 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3995533555671293492, guid: e22e29840e07aca4693bb3288c909879,
