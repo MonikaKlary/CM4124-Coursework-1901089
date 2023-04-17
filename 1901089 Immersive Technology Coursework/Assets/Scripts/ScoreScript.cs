@@ -30,6 +30,13 @@ public class ScoreScript : MonoBehaviour
         if(score == finalScore)
         {
             winAction.Invoke();
+            AudioManager.Instance.PlayPickup();
         }
+    }
+
+    public void WinGame()
+    {
+        AudioManager.Instance.PlayPickup();
+        UIManager.Instance.ShowVictoryUI(true);
     }
 }
