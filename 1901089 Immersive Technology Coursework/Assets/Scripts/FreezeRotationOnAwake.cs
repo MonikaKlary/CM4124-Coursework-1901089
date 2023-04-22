@@ -7,6 +7,10 @@ public class FreezeRotationOnAwake : MonoBehaviour
 {
     private void Awake()
     {
-        GetComponent<Rigidbody>().freezeRotation = true;
+        Rigidbody rb = GetComponent<Rigidbody>();
+        if (rb != null)
+            rb.freezeRotation = true;
+        else
+            Debug.LogError("Cannot freeze rotation on awake for gameobject with no Rigidbody component");
     }
 }

@@ -11,17 +11,10 @@ public class ScoreScript : MonoBehaviour
     [SerializeField] private int finalScore;
     [SerializeField] private UnityEvent winAction;
 
-
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (winAction == null)
+            Debug.LogError("No winAction set");
     }
 
     public void UpdateScore()
@@ -36,7 +29,7 @@ public class ScoreScript : MonoBehaviour
 
     public void WinGame()
     {
-        AudioManager.Instance.PlayPickup();
+        AudioManager.Instance.PlayWinSFX();
         UIManager.Instance.ShowVictoryUI(true);
     }
 }

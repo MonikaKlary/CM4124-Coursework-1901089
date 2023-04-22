@@ -16,15 +16,30 @@ public class ControlsManager : MonoBehaviour
         Continuous
     }
 
-    public static ControlsManager Instance { get; private set; }
+    private static ControlsManager instance;
+    public static ControlsManager Instance
+    {
+        get
+        {
+            if (instance == null)
+                Debug.LogError("No ControlsManager in scene");
+
+            return instance;
+        }
+        private set
+        {
+            instance = value;
+        }
+    }
 
     public EMovementType CurrentMovementType { get; private set; }
     public ERotationType CurrentRotationType { get; private set; }
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (instance != null && instance != this)
         {
+            Debug.LogWarning("ControlsManager already exists in scene, destroying this extra instance");
             GameObject.Destroy(gameObject);
         }
         else

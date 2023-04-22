@@ -1,18 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    public static AudioManager Instance { get; private set; }
+    private static AudioManager instance;
+    public static AudioManager Instance 
+    { 
+        get 
+        {
+            if (instance == null)
+                Debug.LogError("No AudioManager in scene");
+
+            return instance;
+        }
+        private set
+        {
+            instance = value;
+        }
+    }
 
     public AudioSource BackgroundMusic;
     public AudioSource PickupSFX;
+    public AudioSource WinSFX;
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (instance != null && instance != this)
         {
+            Debug.LogWarning("AudioManager already exists in scene, destroying this extra instance");
             GameObject.Destroy(gameObject);
         }
         else
@@ -26,7 +43,7 @@ public class AudioManager : MonoBehaviour
     {
         BackgroundMusic.volume = musicVolume;
 
-        //TODO add a separate SFX volume
+        //need to add a separate SFX volume
         PickupSFX.volume = musicVolume;
     }
 
@@ -38,5 +55,10 @@ public class AudioManager : MonoBehaviour
     public void PlayPickup()
     {
         PickupSFX.Play();
+    }
+
+    public void PlayWinSFX()
+    {
+        WinSFX.Play();
     }
 }

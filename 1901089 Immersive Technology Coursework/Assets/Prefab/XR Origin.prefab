@@ -928,7 +928,7 @@ Transform:
   m_Children:
   - {fileID: 6506917655728769731}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6506917654417280121
 MonoBehaviour:
@@ -1943,7 +1943,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
-  handAnimation: {fileID: 6614096179296718901}
+  handAnimator: {fileID: 6614096179296718901}
 --- !u!1001 &6506917654571463073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2075,7 +2075,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
-  handAnimation: {fileID: 1487317961042013157}
+  handAnimator: {fileID: 1487317961042013157}
 --- !u!95 &1487317961042013157 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 5686134208192617028, guid: 1fd3a7c43c8190f4d8c167ebde694364,

@@ -4,12 +4,27 @@ using UnityEngine;
 
 public class GraphicsManager : MonoBehaviour
 {
-    public static GraphicsManager Instance { get; private set; }
+    private static GraphicsManager instance;
+    public static GraphicsManager Instance
+    {
+        get
+        {
+            if (instance == null)
+                Debug.LogError("No GraphicsManager in scene");
+
+            return instance;
+        }
+        private set
+        {
+            instance = value;
+        }
+    }
 
     private void Awake()
     {
-        if (Instance != null && Instance != this)
+        if (instance != null && instance != this)
         {
+            Debug.LogWarning("GraphicsManager already exists in scene, destroying this extra instance");
             GameObject.Destroy(gameObject);
         }
         else
