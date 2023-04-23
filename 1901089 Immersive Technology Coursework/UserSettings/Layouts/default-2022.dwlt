@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 54
+  controlID: 69
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 468
     height: 947
-  m_MinSize: {x: 275, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 355
     height: 643
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 55
+  controlID: 70
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 71
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -405,24 +405,24 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Prefab
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
   m_ViewMode: 1
   m_StartGridSize: 54
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Prefab
   m_LastFoldersGridSize: 54
   m_LastProjectPath: D:\Documents\CM4124-Coursework-1901089\1901089 Immersive Technology
     Coursework
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 569}
-    m_SelectedIDs: 5aa60000
-    m_LastClickedID: 42586
-    m_ExpandedIDs: 00000000bc810000be810000c0810000c2810000c4810000c6810000c8810000ca810000cc810000ce810000d0810000d2810000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e881000016a6000000ca9a3b
+    scrollPos: {x: 0, y: 441}
+    m_SelectedIDs: 42820000
+    m_LastClickedID: 33346
+    m_ExpandedIDs: 00000000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe810000008200000282000004820000068200003882000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -450,7 +450,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000bc810000be810000c0810000c2810000c4810000c6810000c8810000ca810000cc810000ce810000d0810000d2810000d4810000d6810000d8810000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000
+    m_ExpandedIDs: 00000000da810000dc810000de810000e0810000e2810000e4810000e6810000e8810000ea810000ec810000ee810000f0810000f2810000f4810000f6810000f8810000fa810000fc810000fe81000000820000028200000482000006820000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -477,7 +477,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000078e300008e9400000c910100ba7b0000aca10000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -542,10 +542,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 795}
-      m_SelectedIDs: 2669fcff
-      m_LastClickedID: -235226
-      m_ExpandedIDs: 1098fdff5a9afdffaa9cfdffac9cfdfff69cfdfff09dfdff2a9ffdffdc9ffdff36c2fdff2a22feff2c22feff1c38feff2038feff443cfeff7469fefffc69feff0a6afeff226afeff5e70feff569bfeff70d4ffff76d4ffffdad6ffff0cddffff20fbfffff4ffffff9aa6000002a8000002ac00007a9801004a9b0100f2d5010006d60100ecd6010072d7010042da010034db0100
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 90acfeffa2adfeff0cbafeff48c3feff9006ffff2023ffff2623ffff5030ffff0c75ffffca83ffffead0fffffed1ffff6cdeffff82e7ffff20fbfffff4ffffffb02d0100b62d0100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -815,10 +815,10 @@ MonoBehaviour:
       containerId: overlay-container--right
       floating: 0
       collapsed: 0
-      displayed: 1
-      snapOffset: {x: 0, y: 0}
+      displayed: 0
+      snapOffset: {x: -274, y: -197}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: Scene View/Particles
       index: 7
       layout: 4
@@ -873,9 +873,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.7936146, y: 0.6293204, z: 0.13739562}
+    m_Target: {x: -8.658949, y: 1.0413082, z: -0.2186889}
     speed: 2
-    m_Value: {x: -0.7936146, y: 0.6293204, z: 0.13739562}
+    m_Value: {x: -8.658949, y: 1.0413082, z: -0.2186889}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -921,13 +921,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.16573313, y: -0.13094598, z: 0.022194544, w: -0.9772008}
+    m_Target: {x: -0.12069682, y: 0.47497377, z: -0.06600608, w: -0.8692226}
     speed: 2
-    m_Value: {x: -0.16419807, y: -0.13390897, z: 0.022490472, w: -0.9770371}
+    m_Value: {x: -0.12069245, y: 0.47495654, z: -0.06600369, w: -0.8691911}
   m_Size:
-    m_Target: 2.578427
+    m_Target: 1.7078944
     speed: 2
-    m_Value: 2.578427
+    m_Value: 1.7078944
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -992,7 +992,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 1068, y: 601}
+  m_TargetSize: {x: 1095, y: 601}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -1007,8 +1007,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -534
-    m_HBaseRangeMax: 534
+    m_HBaseRangeMin: -547.5
+    m_HBaseRangeMax: 547.5
     m_VBaseRangeMin: -300.5
     m_VBaseRangeMax: 300.5
     m_HAllowExceedBaseRangeMin: 1
