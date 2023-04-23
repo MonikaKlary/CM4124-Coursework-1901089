@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 9a33c9379f598a54589e41c16f7f792e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Death Record
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: e52d6727cea58184cacbbf280db01def, type: 3}
+  - {fileID: 12800000, guid: 133a7529020775d47a1529d411677d21, type: 3}
+  - {fileID: 12800000, guid: 8a3454f286f6620429dab4a478dc40d6, type: 3}
+  - {fileID: 12800000, guid: d8a6fdf1c68aaff4da7eaf6e6509ae35, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
