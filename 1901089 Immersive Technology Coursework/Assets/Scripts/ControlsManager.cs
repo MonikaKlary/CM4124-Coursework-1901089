@@ -47,7 +47,6 @@ public class ControlsManager : MonoBehaviour
             Instance = this;
         }
     }
-
     public void SetMovementType(EMovementType movementType)
     {
         CurrentMovementType = movementType;

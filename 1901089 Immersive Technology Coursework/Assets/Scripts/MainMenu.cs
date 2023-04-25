@@ -10,7 +10,6 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Loading Main VR Scene");
         SceneManager.LoadScene("Main VR Scene");
     }
-
     public void QuitGame()
     {
         Debug.Log("Game Quit");

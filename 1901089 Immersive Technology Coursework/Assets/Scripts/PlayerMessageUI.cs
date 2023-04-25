@@ -10,6 +10,7 @@ public class PlayerMessageUI : MonoBehaviour
 
     public void Awake()
     {
+
         ShowPlayerMessage("You've escaped your cell, now escape the rest of the Witch's Dungeon by finding the 4 runes for the magical lock");
     }
 
@@ -17,7 +18,7 @@ public class PlayerMessageUI : MonoBehaviour
     {
         TextBox.text = inMessage;
 
-        //Reset if we're already showing a message
+     
         StopAllCoroutines();
         CanvasGroup.alpha = 0;
 

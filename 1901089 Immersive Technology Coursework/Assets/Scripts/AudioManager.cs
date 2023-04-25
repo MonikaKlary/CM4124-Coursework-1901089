@@ -43,7 +43,7 @@ public class AudioManager : MonoBehaviour
     {
         BackgroundMusic.volume = musicVolume;
 
-        //need to add a separate SFX volume
+       
         PickupSFX.volume = musicVolume;
     }
 

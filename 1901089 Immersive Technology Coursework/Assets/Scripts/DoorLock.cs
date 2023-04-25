@@ -16,9 +16,6 @@ public class DoorLock : MonoBehaviour
         if (door == null)
             Debug.LogError("No door gameobject set");
 
-        //if (key == null)
-        //    Debug.LogError("No key gameobject set");
-
         if (handle == null)
             Debug.LogError("No handle gameobject set");
     }
